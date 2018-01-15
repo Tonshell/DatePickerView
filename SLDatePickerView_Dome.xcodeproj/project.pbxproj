@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6244C074200B61EE004A2AEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244C073200B61EE004A2AEF /* AppDelegate.m */; };
+		6244C077200B61EE004A2AEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244C076200B61EE004A2AEF /* ViewController.m */; };
+		6244C07A200B61EE004A2AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6244C078200B61EE004A2AEF /* Main.storyboard */; };
+		6244C07C200B61EE004A2AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6244C07B200B61EE004A2AEF /* Assets.xcassets */; };
+		6244C07F200B61EE004A2AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6244C07D200B61EE004A2AEF /* LaunchScreen.storyboard */; };
+		6244C082200B61EE004A2AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244C081200B61EE004A2AEF /* main.m */; };
+		6244C08C200B623A004A2AEF /* GDDateAndTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244C08B200B623A004A2AEF /* GDDateAndTimePickerView.m */; };
+		6244C094200B63E5004A2AEF /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6244C093200B63E5004A2AEF /* NSDate+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6244C06F200B61EE004A2AEF /* SLDatePickerView_Dome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLDatePickerView_Dome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6244C072200B61EE004A2AEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6244C073200B61EE004A2AEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6244C075200B61EE004A2AEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6244C076200B61EE004A2AEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6244C079200B61EE004A2AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6244C07B200B61EE004A2AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6244C07E200B61EE004A2AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6244C080200B61EE004A2AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6244C081200B61EE004A2AEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6244C08A200B623A004A2AEF /* GDDateAndTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDateAndTimePickerView.h; sourceTree = "<group>"; };
+		6244C08B200B623A004A2AEF /* GDDateAndTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDateAndTimePickerView.m; sourceTree = "<group>"; };
+		6244C092200B63E5004A2AEF /* NSDate+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		6244C093200B63E5004A2AEF /* NSDate+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6244C06C200B61EE004A2AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6244C066200B61EE004A2AEF = {
+			isa = PBXGroup;
+			children = (
+				6244C071200B61EE004A2AEF /* SLDatePickerView_Dome */,
+				6244C070200B61EE004A2AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6244C070200B61EE004A2AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6244C06F200B61EE004A2AEF /* SLDatePickerView_Dome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6244C071200B61EE004A2AEF /* SLDatePickerView_Dome */ = {
+			isa = PBXGroup;
+			children = (
+				6244C08E200B6295004A2AEF /* Category */,
+				6244C08D200B6241004A2AEF /* View */,
+				6244C089200B6209004A2AEF /* Main */,
+				6244C088200B61FC004A2AEF /* Controller */,
+				6244C07B200B61EE004A2AEF /* Assets.xcassets */,
+				6244C07D200B61EE004A2AEF /* LaunchScreen.storyboard */,
+				6244C080200B61EE004A2AEF /* Info.plist */,
+				6244C081200B61EE004A2AEF /* main.m */,
+			);
+			path = SLDatePickerView_Dome;
+			sourceTree = "<group>";
+		};
+		6244C088200B61FC004A2AEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6244C076200B61EE004A2AEF /* ViewController.m */,
+				6244C075200B61EE004A2AEF /* ViewController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6244C089200B6209004A2AEF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6244C078200B61EE004A2AEF /* Main.storyboard */,
+				6244C072200B61EE004A2AEF /* AppDelegate.h */,
+				6244C073200B61EE004A2AEF /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		6244C08D200B6241004A2AEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6244C08A200B623A004A2AEF /* GDDateAndTimePickerView.h */,
+				6244C08B200B623A004A2AEF /* GDDateAndTimePickerView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6244C08E200B6295004A2AEF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6244C092200B63E5004A2AEF /* NSDate+Category.h */,
+				6244C093200B63E5004A2AEF /* NSDate+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6244C06E200B61EE004A2AEF /* SLDatePickerView_Dome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6244C085200B61EE004A2AEF /* Build configuration list for PBXNativeTarget "SLDatePickerView_Dome" */;
+			buildPhases = (
+				6244C06B200B61EE004A2AEF /* Sources */,
+				6244C06C200B61EE004A2AEF /* Frameworks */,
+				6244C06D200B61EE004A2AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLDatePickerView_Dome;
+			productName = SLDatePickerView_Dome;
+			productReference = 6244C06F200B61EE004A2AEF /* SLDatePickerView_Dome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6244C067200B61EE004A2AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "不佟";
+				TargetAttributes = {
+					6244C06E200B61EE004A2AEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6244C06A200B61EE004A2AEF /* Build configuration list for PBXProject "SLDatePickerView_Dome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6244C066200B61EE004A2AEF;
+			productRefGroup = 6244C070200B61EE004A2AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6244C06E200B61EE004A2AEF /* SLDatePickerView_Dome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6244C06D200B61EE004A2AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6244C07F200B61EE004A2AEF /* LaunchScreen.storyboard in Resources */,
+				6244C07C200B61EE004A2AEF /* Assets.xcassets in Resources */,
+				6244C07A200B61EE004A2AEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6244C06B200B61EE004A2AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6244C08C200B623A004A2AEF /* GDDateAndTimePickerView.m in Sources */,
+				6244C094200B63E5004A2AEF /* NSDate+Category.m in Sources */,
+				6244C077200B61EE004A2AEF /* ViewController.m in Sources */,
+				6244C082200B61EE004A2AEF /* main.m in Sources */,
+				6244C074200B61EE004A2AEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6244C078200B61EE004A2AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6244C079200B61EE004A2AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6244C07D200B61EE004A2AEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6244C07E200B61EE004A2AEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6244C083200B61EE004A2AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6244C084200B61EE004A2AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6244C086200B61EE004A2AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96FMTZW7ST;
+				INFOPLIST_FILE = SLDatePickerView_Dome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SLDatePickerView-Dome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6244C087200B61EE004A2AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96FMTZW7ST;
+				INFOPLIST_FILE = SLDatePickerView_Dome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.SLDatePickerView-Dome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6244C06A200B61EE004A2AEF /* Build configuration list for PBXProject "SLDatePickerView_Dome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6244C083200B61EE004A2AEF /* Debug */,
+				6244C084200B61EE004A2AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6244C085200B61EE004A2AEF /* Build configuration list for PBXNativeTarget "SLDatePickerView_Dome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6244C086200B61EE004A2AEF /* Debug */,
+				6244C087200B61EE004A2AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6244C067200B61EE004A2AEF /* Project object */;
+}
